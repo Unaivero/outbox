@@ -10,6 +10,6 @@ var app = angular.module('OutboxApp', ['ngRoute']);
       controller: 'EmailController'   
      }) 
    .otherwise({
-      redirect: '/outbox' 
+      redirectTo: '/outbox' 
  });
  });
